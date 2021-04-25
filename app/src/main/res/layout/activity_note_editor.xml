@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoteEditor">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#b9d0f8"
+        android:ems="10"
+
+        android:gravity="top|left"
+        android:hint="\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                A goal with out a plan is just a \n                                      wish"
+        android:inputType="textMultiLine"
+
+        android:textColor="#284776"
+        android:textColorHint="#284776"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="398dp"
+        android:layout_height="364dp"
+        android:layout_marginEnd="172dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="218dp"
+            android:layout_height="268dp"
+            android:layout_marginBottom="96dp"
+            app:srcCompat="@drawable/corner_bg" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="213dp"
+        android:layout_height="303dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginBottom="100dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="242dp"
+            android:layout_height="321dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/corner_bg" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="238dp"
+        android:layout_height="214dp"
+        android:layout_marginTop="604dp"
+        android:layout_marginEnd="244dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="208dp"
+            app:srcCompat="@drawable/corner_bg_2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="258dp"
+        android:layout_height="281dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginBottom="608dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="248dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/corner_bg_2" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
